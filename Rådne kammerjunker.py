@@ -12,12 +12,16 @@ import tkinter as tk
 from tkinter import ttk, messagebox, font as tkfont
 from PIL import Image, ImageTk, ImageOps
 import os, json, pathlib
+from pathlib import Path
 
 # ─────────────────────────────────────────────────────────────────────────────
 #  KONFIGURATION  –  tilpas disse stier til din mappestruktur
 # ─────────────────────────────────────────────────────────────────────────────
-DATA_FILE  = r"C:\GitHub\Innovativ app\Rådne kammerjunker\Data\ratings.json"
-IMAGE_DIR  = r"C:\GitHub\Innovativ app\Rådne kammerjunker\Images"
+
+current_dir = Path(__file__).resolve().parent
+
+DATA_FILE  = current_dir / "Data" / "ratings.json"
+IMAGE_DIR  = current_dir / "Images"
 #
 #  Læg billederne i IMAGE_DIR og navngiv dem præcis som "image" nedenfor,
 #  f.eks.:  klover_citron.jpg   (PNG og JPG understøttes begge)
