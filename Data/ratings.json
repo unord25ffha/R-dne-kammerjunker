@@ -1,13 +1,17 @@
 {
     "Kløver koldskål med citron": [
-        2
+        2,
+        0
     ],
     "Kløver koldskål med tykmælk og æg": [
         5,
-        5
+        5,
+        3
     ],
     "Mejse koldskål": [],
-    "Løgismose mormor koldskål": [],
+    "Løgismose mormor koldskål": [
+        6
+    ],
     "Måms koldskål": [],
     "Salling koldskål": [],
     "Salling øko koldskål": [],
@@ -17,6 +21,9 @@
     "Øllingegård koldskål": [],
     "Arla original koldskål": [
         9,
+        10,
+        10,
+        8,
         9
     ],
     "Arla koldskål med jordbær": [],
